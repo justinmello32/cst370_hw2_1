@@ -143,32 +143,32 @@ cst370_hw2_1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cst370_hw2_1.dir/build.make CMakeFiles/cst370_hw2_1.dir/build
 .PHONY : cst370_hw2_1/fast
 
-main.o: main.cpp.o
+hw2_1.o: hw2_1.cpp.o
 
-.PHONY : main.o
+.PHONY : hw2_1.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cst370_hw2_1.dir/build.make CMakeFiles/cst370_hw2_1.dir/main.cpp.o
-.PHONY : main.cpp.o
+hw2_1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cst370_hw2_1.dir/build.make CMakeFiles/cst370_hw2_1.dir/hw2_1.cpp.o
+.PHONY : hw2_1.cpp.o
 
-main.i: main.cpp.i
+hw2_1.i: hw2_1.cpp.i
 
-.PHONY : main.i
+.PHONY : hw2_1.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cst370_hw2_1.dir/build.make CMakeFiles/cst370_hw2_1.dir/main.cpp.i
-.PHONY : main.cpp.i
+hw2_1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cst370_hw2_1.dir/build.make CMakeFiles/cst370_hw2_1.dir/hw2_1.cpp.i
+.PHONY : hw2_1.cpp.i
 
-main.s: main.cpp.s
+hw2_1.s: hw2_1.cpp.s
 
-.PHONY : main.s
+.PHONY : hw2_1.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cst370_hw2_1.dir/build.make CMakeFiles/cst370_hw2_1.dir/main.cpp.s
-.PHONY : main.cpp.s
+hw2_1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cst370_hw2_1.dir/build.make CMakeFiles/cst370_hw2_1.dir/hw2_1.cpp.s
+.PHONY : hw2_1.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... cst370_hw2_1"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... hw2_1.o"
+	@echo "... hw2_1.i"
+	@echo "... hw2_1.s"
 .PHONY : help
 
 

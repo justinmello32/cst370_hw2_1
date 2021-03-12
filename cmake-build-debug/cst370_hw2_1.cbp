@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/mello23/Documents/school/cst370/cst370_hw2_1/main.cpp">
+		<Unit filename="/Users/mello23/Documents/school/cst370/cst370_hw2_1/hw2_1.cpp">
 			<Option target="cst370_hw2_1"/>
 		</Unit>
 		<Unit filename="/Users/mello23/Documents/school/cst370/cst370_hw2_1/CMakeLists.txt">
