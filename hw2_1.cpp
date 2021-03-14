@@ -3,6 +3,7 @@
 #include <string>
 #include <ctime>
 #include <iomanip>
+#include <iomanip>
 
 using namespace std;
 int main() {
@@ -49,10 +50,15 @@ int main() {
         min3 = min2 - min1;
     }
 
-    hour3 = hour2 - hour1;
+    if(hour1 > hour2) {
+        hour3 = hour1 - hour2;
+        hour3 = 24 - hour3;
+    }
+    else {
+        hour3 = hour2 - hour1;
+    }
 
-
-    cout << setprecision(3) << hour3 << ":" << min3 << ":" << sec3;
+    cout << setfill('0') << setw(2) << hour3 << ":" << setfill('0') << setw(2)<< min3 << ":" << setfill('0') << setw(2) << sec3;
     return 0;
 
 
