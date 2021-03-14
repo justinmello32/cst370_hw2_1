@@ -33,16 +33,16 @@ int main() {
 //    cout << result;
 
     if(sec1 > sec2) {
-        min2++;
-        sec1 += 60;
+        min2--;
+        sec2 += 60;
         sec3 = sec2 - sec1;
     }
     else
         sec3 = sec2 - sec1;
 
     if(min1 > min2) {
-        hour2++;
-        min1 += 1;
+        hour2--;
+        min2 += 60;
         min3 = min2 - min1;
     }
     else {
