@@ -1,3 +1,14 @@
+  
+/*
+ * Title: hw2_1.cpp
+ * Abstract: This program reads two timestamps of two events from a user 
+             and displays the difference between the two timestamps
+ * Author: Justin Mello
+ * ID: 2002
+ * Date: 03/15/2021
+ */
+
+
 #include <iostream>
 #include <algorithm>
 #include <string>
